@@ -1,0 +1,41 @@
+<!--pages/case/case.wxml-->
+<view class="main">
+	<view class="hot-style">
+		<view class="content-title">
+			<text class="content-text">热门风格</text>
+		</view>
+		<view class="hot-style-row">
+			<view wx:for="{{hot_style}}" wx:key="index" class="style-row">
+				<image src="{{item.img}}"></image>
+				<view>{{item.text}}</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="transverse"></view>
+
+	<view class="boutique-case">
+		<view class="content-title">
+			<text class="content-text">精品案例</text>
+		</view>
+    <view class="boutique-case-row">
+      <view wx:for="{{case_row}}" wx:key="index"><image src="{{item.img}}"></image></view>
+    </view>
+	</view>
+
+	<view class="transverse"></view>
+
+<view class="all-case">
+  	<view class="content-title">
+			<text class="content-text">全部案例</text>
+		</view>
+    <view class="all-case-row">
+      <view wx:for="{{all_case_row}}" wx:key="index">
+        <image src="{{item.img}}"></image>
+        <view>{{item.text}}</view>
+      </view>
+    </view>
+</view>
+	<view class="transverse-top">-----下拉继续加载-----</view>
+
+</view>

@@ -1,0 +1,17 @@
+/* pages/service/service.wxss */
+.main{
+  padding-top: 130rpx;
+}
+.service{
+  margin: 10px;
+}
+.service > view{
+  padding: 5px 0px;
+
+}
+.service image{
+  width: 720rpx;
+  height: 250rpx;
+  border-radius: 15rpx;
+  box-shadow: 1px 5px 10px #edced4,-1px 5px 5px #edced4,8px -5px 10px #f3f3f3;
+}

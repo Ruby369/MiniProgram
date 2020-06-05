@@ -1,2 +1,73 @@
 <!--index.wxml-->
-<view>hello world</view>
+<!-- <import src="../topbar/topbar.wxml">
+<template is="topbar" data="{{item:'123'}}"/> -->
+<view class="main">
+	<view class="swiper-container">
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+			<block wx:for="{{imgUrls}}" wx:key="unique">
+				<swiper-item>
+					<image src="{{item}}" class="img" bindtap="swipclick" />
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+
+	<view class="case">
+		<view class="content-title">
+			<text class="content-text">精品案例</text>
+			<image class="content-right" src="../img/home/right.svg"></image>
+		</view>
+		<view class="case-row">
+			<view>
+				<image src="../img/home/home1.jpg"></image>
+				<text>韩式婚礼</text>
+			</view>
+			<view>
+				<image src="../img/home/home2.jpg"></image>
+				<text>梦幻童话婚礼</text>
+			</view>
+			<view>
+				<image src="../img/home/home3.jpg"></image>
+				<text>中式传统婚礼</text>
+			</view>
+		</view>
+	</view>
+
+	<view class="transverse"></view>
+
+	<view class="discount">
+		<view class="content-title">
+			<text class="content-text">精选优惠</text>
+			<image class="content-right" src="../img/home/right.svg"></image>
+		</view>
+		<view class="discount-row">
+			<view>
+				<image src="../img/home/home4.jpg"></image>
+			</view>
+			<view>
+				<image src="../img/home/home5.jpg"></image>
+			</view>
+		</view>
+	</view>
+	<view class="transverse"></view>
+	<view class="about">
+		<view class="content-title">
+			<text class="content-text">关于我们</text>
+		</view>
+		<view class="about-row">
+			<view class="about-left">
+				<image src="../img/home/home6.jpg"></image>
+			</view>
+			<view class="about-right">
+				<view>
+					<image src="../img/home/home8.jpg"></image>
+				</view>
+				<view>
+					<image src="../img/home/home7.jpg"></image>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="transverse-top"></view>
+
+</view>

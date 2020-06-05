@@ -1,1 +1,111 @@
 /**index.wxss**/
+@import "../topbar/topbar.wxss";
+
+.main{
+  padding-top: 130rpx;
+}
+swiper {
+  height: 421.5rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  position: relative;
+  margin: 10px 0px;
+}
+
+.swiper-container .swiper {
+  height: 400rpx;
+}
+
+.swiper-container .swiper .img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.case,
+.discount,
+.about {
+  margin: 10px;
+}
+
+.content-title {
+  position: relative;
+}
+
+.content-text {
+  margin-left: 10px;
+}
+
+.content-text::before {
+  content: '';
+  height: 21px;
+  width: 10rpx;
+  background-color: #ed6d86;
+  position: absolute;
+  left: 0px;
+}
+
+.content-right {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.case-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px 10px;
+}
+
+.case-row view {
+  width: 33%;
+}
+.case-row view image {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.discount-row view {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.discount-row view image {
+  width: 100%;
+  height: 380rpx;
+}
+.about-left,.about-right{
+  display: inline;
+}
+.about-row{
+  display: flex;
+  padding-top: 10px;
+}
+.about-left image {
+  width: 390rpx;
+  height: 380rpx;
+  padding-right: 20rpx;
+}
+.about-right image {
+  width: 295rpx;
+  height: 180rpx;
+}
+.about-right image:nth-child(1){
+  padding-bottom: 12rpx;
+}
+.transverse{
+  background-image: linear-gradient(to top,#f2f2f2,#f2edee,#f0dbe0);
+  height:30rpx;
+}
+.transverse-top{
+  background-image: linear-gradient(to top,#f0dbe0,#ffffff,#f0dbe0);
+  height:40rpx;
+}
