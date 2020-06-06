@@ -1,0 +1,42 @@
+/* pages/order/order.wxss */
+.main{
+  padding-top: 113.4rpx;
+  padding-bottom: 49px;
+
+}
+.order-top image{
+  width: 100%;
+  height: 370rpx;
+}
+.order-input{
+  display: flex;
+  padding: 18rpx 0px;
+}
+.order-input image{
+  width: 54rpx;
+  height: 54rpx;
+  padding-top: 9rpx;
+}
+form{
+  margin: 18rpx;
+  display: flex;
+}
+input,textarea{
+  width: 600rpx;
+  background-color: #ededed;
+  padding: 18rpx;
+  margin-left: 10rpx;
+}
+textarea{
+  height: 110rpx;
+}
+.order-submit:not([size="mini"]){
+  background-color: #fea058;
+  color: white;
+  width: 700rpx;
+  margin: 40rpx 0px;
+}
+.transverse-top{
+  background-image: linear-gradient(to top,#f0dbe0,#ffffff,#f0dbe0);
+  height:40rpx;
+}

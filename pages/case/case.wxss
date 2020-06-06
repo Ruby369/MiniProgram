@@ -1,6 +1,8 @@
 /* pages/case/case.wxss */
 .main{
-  padding-top: 130rpx;
+  padding-top: 120rpx;
+  padding-bottom: 49px;
+
 }
 .content-title {
   position: relative;

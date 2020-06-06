@@ -1,0 +1,30 @@
+/* pages/component/topbar/topbar.wxss */
+.topbar{
+  padding-top: 45rpx;
+  background-image: linear-gradient(10deg,#ff8199 30%, #feb781);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  z-index:15;
+}
+.title{
+  text-align: center;
+  line-height: 72rpx;
+  color: white;
+  font-size: 18px;
+  flex: 1;
+}
+.topbar-img{
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 18rpx;
+  padding-top: 15rpx;
+}
+.hidden{
+  visibility:hidden;
+  width: 50rpx;
+  height: 50rpx;
+  padding-right: 18rpx;
+}

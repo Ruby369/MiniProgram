@@ -1,8 +1,7 @@
 /**index.wxss**/
-@import "../topbar/topbar.wxss";
-
 .main{
-  padding-top: 130rpx;
+  padding-top: 115rpx;
+  padding-bottom: 49px;
 }
 swiper {
   height: 421.5rpx;

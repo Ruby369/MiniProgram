@@ -1,0 +1,35 @@
+<!--pages/order/order.wxml-->
+<top-bar title="服务"></top-bar>
+
+<view class="main">
+	<view class="order">
+		<view class="order-top">
+			<image src="../img/order/order.jpg"></image>
+		</view>
+		<form>
+			<view class="order-input">
+				<image src="../img/order/text1.jpg"></image>
+				<input type="text" placeholder="您的姓名"></input>
+			</view>
+
+			<view class="order-input">
+				<image src="../img/order/text2.jpg"></image>
+				<input type="number" placeholder="请填写您的电话"></input>
+			</view>
+
+			<view class="order-input">
+				<image src="../img/order/text3.jpg"></image>
+				<input type="text" placeholder="请选择预约服务"></input>
+			</view>
+
+			<view class="order-input">
+				<image src="../img/order/text4.jpg"></image>
+				<textarea placeholder="请填写咨询内容"></textarea>
+			</view>
+      <button form-type="submit" class="order-submit">提交</button>
+		</form>
+	<view class="transverse-top"></view>
+
+	</view>
+</view>
+<nav-bar></nav-bar>

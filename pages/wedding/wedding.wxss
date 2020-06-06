@@ -1,0 +1,45 @@
+/* pages/wedding/wedding.wxss */
+.main{
+  padding-top: 115rpx;
+  padding-bottom: 49px;
+
+}
+.wedding{
+  margin: 0px 25px;
+}
+.wedding-row{
+  padding-top: 10px;
+}
+.wedding-date{
+  padding: 10px 0px;
+  color: #989898;
+}
+.underline{
+  border-top: 2px dashed #c7c7c7;
+  width: calc(100vh - 25px);
+}
+.wedding > view:last-child .underline{
+  width: 0;
+}
+.wedding-titile{
+  position: relative;
+  color: #686868;
+}
+.wedding-titile::before{
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #ec6b86;
+  position: absolute;
+  top: 15rpx;
+  left: -25rpx;
+}
+.transverse-top{
+  background-image: linear-gradient(to top,#f0dbe0,#ffffff,#ffffff,#ffffff,#f0dbe0);
+  height:80rpx;
+  color: #b8b8b8;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 12px;
+}

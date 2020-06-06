@@ -1,6 +1,5 @@
 <!--index.wxml-->
-<!-- <import src="../topbar/topbar.wxml">
-<template is="topbar" data="{{item:'123'}}"/> -->
+<top-bar title="丝路婚庆"></top-bar>
 <view class="main">
 	<view class="swiper-container">
 		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
@@ -71,3 +70,4 @@
 	<view class="transverse-top"></view>
 
 </view>
+<nav-bar></nav-bar>

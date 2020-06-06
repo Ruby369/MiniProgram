@@ -1,6 +1,9 @@
 <!--pages/service/service.wxml-->
+<top-bar title="服务"></top-bar>
+
 <view class="main">
   <view class="service">
     <view wx:for="{{service_row}}" wx:key="index"><image src="{{item.img}}"></image></view>
   </view>
 </view>
+<nav-bar></nav-bar>

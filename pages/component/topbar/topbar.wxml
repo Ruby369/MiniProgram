@@ -1,0 +1,10 @@
+<!--pages/component/topbar/topbar.wxml-->
+	<view class="topbar">
+		<view class="backClick">
+			<image class="topbar-img" src="/pages/img/topbar/back.svg"></image>
+		</view>
+		<view class="title">{{title}}</view>
+		<view class="hidden">
+			<image class="topbar-img" src="/pages/img/topbar/back.svg"></image>
+		</view>
+	</view>

@@ -23,7 +23,7 @@ Page({
         // '../user/user',
         // '../user/user',
         // '../user/user'
-      ]
+      ],
   },
   //轮播图的切换事件
 

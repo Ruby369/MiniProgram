@@ -1,0 +1,20 @@
+/* pages/component/navbar/navbar.wxss */
+.nav-bar{
+  height: 49px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+.nav-row{
+  flex: 1;
+}
+.nav-icon{
+  width: 35rpx;
+  height: 35rpx;
+}

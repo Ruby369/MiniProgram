@@ -1,4 +1,6 @@
 <!--pages/case/case.wxml-->
+<top-bar title="婚庆案例"></top-bar>
+
 <view class="main">
 	<view class="hot-style">
 		<view class="content-title">
@@ -39,3 +41,4 @@
 	<view class="transverse-top">-----下拉继续加载-----</view>
 
 </view>
+<nav-bar></nav-bar>

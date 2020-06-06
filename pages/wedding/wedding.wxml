@@ -1,0 +1,14 @@
+<!--pages/wedding/wedding.wxml-->
+<top-bar title="婚礼说"></top-bar>
+
+<view class="main">
+	<view class="wedding">
+		<view class="wedding-row" wx:for="{{wedding_row}}" wx:key="index">
+      <view class="wedding-titile">{{item.text}}</view>
+      <view class="wedding-date">{{item.date}}</view>
+      <view class="underline"></view>
+		</view>
+	</view>
+  <view class="transverse-top">-----下拉继续加载-----</view>
+</view>
+<nav-bar></nav-bar>

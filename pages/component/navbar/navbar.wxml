@@ -1,0 +1,33 @@
+<!--pages/component/navbar/navbar.wxml-->
+<view class="nav-bar">
+	<view class="nav-row">
+		<navigator url="/pages/index/index">
+			<image class="nav-icon" src="/pages/img/navbar/home.svg"></image>
+			<view class="nav-title">首页</view>
+		</navigator>
+	</view>
+	<view class="nav-row">
+		<navigator url="/pages/case/case">
+			<image class="nav-icon" src="/pages/img/navbar/case.svg"></image>
+			<view class="nav-title">案例</view>
+		</navigator>
+	</view>
+	<view class="nav-row">
+		<navigator url="/pages/service/service">
+			<image class="nav-icon" src="/pages/img/navbar/service.svg"></image>
+			<view class="nav-title">服务</view>
+		</navigator>
+	</view>
+	<view class="nav-row">
+		<navigator url="/pages/wedding/wedding">
+			<image class="nav-icon" src="/pages/img/navbar/wedding.svg"></image>
+			<view class="nav-title">婚礼说</view>
+		</navigator>
+	</view>
+	<view class="nav-row">
+		<navigator url="/pages/order/order">
+			<image class="nav-icon" src="/pages/img/navbar/order.svg"></image>
+			<view class="nav-title">预约</view>
+		</navigator>
+	</view>
+</view>

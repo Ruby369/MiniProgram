@@ -1,46 +1,19 @@
 {
   "pages":[
-    "pages/service/service",
-
     "pages/index/index",
     "pages/logs/logs",
-    "pages/topbar/topbar",
-    "pages/case/case"
-
+    "pages/case/case",
+    "pages/service/service",
+    "pages/wedding/wedding",
+    "pages/order/order"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "丝路婚礼",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "navigationStyle":"custom"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "tabBar":{
-    "color":"#878787",
-    "selectedColor":"#ff97ad",
-    "backgroundColor": "#ffffff",
-    "list":[
-      {
-        "pagePath":"pages/index/index",
-        "iconPath":"./pages/img/navbar/home.jpg",
-        "selectedIconPath":"./pages/img/navbar/home_active.jpg",
-        "text":"首页"
-      },
-      {
-        "pagePath":"pages/case/case",
-        "iconPath":"./pages/img/navbar/case.jpg",
-        "selectedIconPath":"./pages/img/navbar/case_active.jpg",
-        "text":"案例"
-      },
-      {
-        "pagePath":"pages/service/service",
-        "iconPath":"./pages/img/navbar/service.jpg",
-        "selectedIconPath":"./pages/img/navbar/service_active.jpg",
-        "text":"服务"
-      }
-    ]
-
-  }
+  "sitemapLocation": "sitemap.json"
 }
