@@ -1,7 +1,7 @@
 /**index.wxss**/
 .main{
-  padding-top: 115rpx;
-  padding-bottom: 49px;
+  padding-top: 140rpx;
+  /* padding-bottom: 49px; */
 }
 swiper {
   height: 421.5rpx;
@@ -62,17 +62,18 @@ swiper-item image {
   display: flex;
   justify-content: space-around;
   padding: 15px 0px 10px;
+  color: #666666;
 }
 
-.case-row view {
+.case-row > view {
   width: 33%;
 }
-.case-row view image {
+.case-row > view > image {
   width: 220rpx;
   height: 220rpx;
 }
 
-.discount-row view {
+.discount-row > view {
   text-align: center;
   padding: 10px 0;
 }

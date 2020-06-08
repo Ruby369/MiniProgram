@@ -1,7 +1,7 @@
 /* pages/wedding/wedding.wxss */
 .main{
-  padding-top: 115rpx;
-  padding-bottom: 49px;
+  padding-top: 140rpx;
+  /* padding-bottom: 49px; */
 
 }
 .wedding{

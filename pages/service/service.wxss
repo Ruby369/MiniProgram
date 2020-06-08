@@ -1,8 +1,7 @@
 /* pages/service/service.wxss */
 .main{
-  padding-top: 115rpx;
-  padding-bottom: 49px;
-
+  padding-top: 140rpx;
+  /* padding-bottom: 49px; */
 }
 .service{
   margin: 10px;

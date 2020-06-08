@@ -1,7 +1,7 @@
 /* pages/case/case.wxss */
 .main{
-  padding-top: 120rpx;
-  padding-bottom: 49px;
+  padding-top: 140rpx;
+  /* padding-bottom: 49px; */
 
 }
 .content-title {

@@ -1,6 +1,6 @@
 <!--pages/component/navbar/navbar.wxml-->
 <view class="nav-bar">
-	<view class="nav-row">
+	<view class="nav-row" bingtap="navClick">
 		<navigator url="/pages/index/index">
 			<image class="nav-icon" src="/pages/img/navbar/home.svg"></image>
 			<view class="nav-title">首页</view>
@@ -31,3 +31,6 @@
 		</navigator>
 	</view>
 </view>
+<wxs module="navbar">
+navClick(){}
+<wxs>

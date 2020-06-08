@@ -5,8 +5,7 @@ Component({
    */
   properties: {
     title:{
-      type:String,
-      value:"我是标题"
+      type:String
     }
 
   },
@@ -22,6 +21,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    backClick(){
+      wx.navigateBack({
+        complete: (res) => {},
+      })
+    }
   }
 })

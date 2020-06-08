@@ -10,6 +10,8 @@
   text-align: center;
   align-items: center;
   font-size: 14px;
+  border-top: 1px solid #f3e3e7;
+
 }
 .nav-row{
   flex: 1;

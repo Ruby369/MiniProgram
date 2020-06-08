@@ -19,15 +19,15 @@
 		<view class="case-row">
 			<view>
 				<image src="../img/home/home1.jpg"></image>
-				<text>韩式婚礼</text>
+				<view>韩式婚礼</view>
 			</view>
 			<view>
 				<image src="../img/home/home2.jpg"></image>
-				<text>梦幻童话婚礼</text>
+				<view>梦幻童话婚礼</view>
 			</view>
 			<view>
 				<image src="../img/home/home3.jpg"></image>
-				<text>中式传统婚礼</text>
+				<view>中式传统婚礼</view>
 			</view>
 		</view>
 	</view>
@@ -70,4 +70,4 @@
 	<view class="transverse-top"></view>
 
 </view>
-<nav-bar></nav-bar>
+<!-- <nav-bar></nav-bar> -->

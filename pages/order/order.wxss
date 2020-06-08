@@ -1,8 +1,7 @@
 /* pages/order/order.wxss */
 .main{
-  padding-top: 113.4rpx;
-  padding-bottom: 49px;
-
+  padding-top: 139rpx;
+  /* padding-bottom: 49px; */
 }
 .order-top image{
   width: 100%;
@@ -27,8 +26,19 @@ input,textarea{
   padding: 18rpx;
   margin-left: 10rpx;
 }
+.picker{
+  position: relative;
+}
+.picker > image{
+  position: absolute;
+  height: 11px;
+  width: 13px;
+  right: 10px;
+  top: 10px;
+  
+}
 textarea{
-  height: 110rpx;
+  height: 120rpx;
 }
 .order-submit:not([size="mini"]){
   background-color: #fea058;

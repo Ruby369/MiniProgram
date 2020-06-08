@@ -15,5 +15,40 @@
     "navigationStyle":"custom"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "selectedColor":"#ff98ac",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"/pages/img/navbar/home.jpg",
+        "selectedIconPath": "/pages/img/navbar/home_active.jpg",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/case/case",
+        "iconPath":"/pages/img/navbar/case.jpg",
+        "selectedIconPath": "/pages/img/navbar/case_active.jpg",
+        "text":"案例"
+      },
+      {
+        "pagePath":"pages/service/service",
+        "iconPath":"/pages/img/navbar/service.jpg",
+        "selectedIconPath": "/pages/img/navbar/service_active.jpg",
+        "text":"服务"
+      },
+      {
+        "pagePath":"pages/wedding/wedding",
+        "iconPath":"/pages/img/navbar/wedding.jpg",
+        "selectedIconPath": "/pages/img/navbar/wedding_active.jpg",
+        "text":"婚礼说"
+      },
+      {
+        "pagePath":"pages/order/order",
+        "iconPath":"/pages/img/navbar/order.jpg",
+        "selectedIconPath": "/pages/img/navbar/order_active.jpg",
+        "text":"预约"
+      }
+    ]
+  }
 }

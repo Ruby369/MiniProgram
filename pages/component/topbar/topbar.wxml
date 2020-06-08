@@ -1,6 +1,6 @@
 <!--pages/component/topbar/topbar.wxml-->
 	<view class="topbar">
-		<view class="backClick">
+		<view class="backClick"bindtap="backClick">
 			<image class="topbar-img" src="/pages/img/topbar/back.svg"></image>
 		</view>
 		<view class="title">{{title}}</view>

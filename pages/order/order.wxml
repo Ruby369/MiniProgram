@@ -19,17 +19,26 @@
 
 			<view class="order-input">
 				<image src="../img/order/text3.jpg"></image>
-				<input type="text" placeholder="请选择预约服务"></input>
+				<view class="section">
+					<view class="section__title"></view>
+					<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+						<view class="picker">
+						<image src="/pages/img/order/drop-down.png"></image>
+							<input type="text" placeholder="请选择预约服务" value="{{array[index]}}"></input>
+						</view>
+					</picker>
+				</view>
+				
 			</view>
 
 			<view class="order-input">
 				<image src="../img/order/text4.jpg"></image>
 				<textarea placeholder="请填写咨询内容"></textarea>
 			</view>
-      <button form-type="submit" class="order-submit">提交</button>
+			<button form-type="submit" class="order-submit">提交</button>
 		</form>
-	<view class="transverse-top"></view>
+		<view class="transverse-top"></view>
 
 	</view>
 </view>
-<nav-bar></nav-bar>
+<!-- <nav-bar></nav-bar> -->

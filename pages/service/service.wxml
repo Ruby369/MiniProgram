@@ -6,4 +6,4 @@
     <view wx:for="{{service_row}}" wx:key="index"><image src="{{item.img}}"></image></view>
   </view>
 </view>
-<nav-bar></nav-bar>
+<!-- <nav-bar></nav-bar> -->

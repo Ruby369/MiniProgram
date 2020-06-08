@@ -11,4 +11,4 @@
 	</view>
   <view class="transverse-top">-----下拉继续加载-----</view>
 </view>
-<nav-bar></nav-bar>
+<!-- <nav-bar></nav-bar> -->
